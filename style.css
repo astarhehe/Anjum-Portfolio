@@ -9,16 +9,17 @@ h1{
 .name{
     color: orange;
 }
-section{
+.flexiable{
     display: flex;
-    
+    margin-bottom: 80px;
 }
 .half-width{
     width:50%;
     padding-left: 5%;
+    padding-right: 8%;
 }
 .half-width img{
-    width:80%;
+    width:80%; 
 }
 .hire-button{
     text-decoration: none;
@@ -32,4 +33,36 @@ section{
 .background-top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.Resume{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+.experiance-p{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.experiance{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#experiance-l{
+     border-left: 10px solid tomato;
+}
+
+#experiance-r{
+  border-left: 10px solid blue;
+}
+footer p{
+    text-align: center;
 }
